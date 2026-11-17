@@ -110,21 +110,17 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 
 
-\### 1. Patient Module
+\### Patient Module
 
 \- Patient Registration
 
 \- Patient Login
 
-\- View Doctor List
-
-\- View Doctor Details
+\- View Doctor List and Details
 
 \- Book Doctor Appointments
 
-\- View Upcoming Appointments
-
-\- View Past Appointments
+\- View Upcoming and Past Appointments
 
 \- Cancel Appointments
 
@@ -136,7 +132,7 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 
 
-\### 2. Admin Module
+\### Admin Module
 
 \- Admin Login
 
@@ -146,11 +142,7 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 \- Filter Appointments by Date
 
-\- Add Doctors
-
-\- Update Doctor Details
-
-\- Delete Doctors
+\- Add, Update and Delete Doctors
 
 \- View Registered Users
 
@@ -158,7 +150,7 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 
 
-\### 3. Appointment Management
+\### Appointment Management
 
 \- Select a Doctor
 
@@ -194,7 +186,7 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 
 
-\## Admin Details
+\### Admin Account
 
 
 
@@ -284,7 +276,7 @@ Database configuration is maintained in `application.properties`.
 
 
 
-\### 1. Backend Setup
+\### Backend Setup
 
 
 
@@ -316,7 +308,7 @@ Run the Spring Boot application:
 
 
 
-\### 2. Frontend Setup
+\### Frontend Setup
 
 
 
