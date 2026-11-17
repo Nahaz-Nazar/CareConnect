@@ -222,27 +222,39 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 \### Frontend
 
-\- Home: http://localhost:3000/
 
-\- Register: http://localhost:3000/register
 
-\- Login: http://localhost:3000/login
+| Page | URL |
 
-\- Doctors: http://localhost:3000/doctors
+|---|---|
 
-\- My Appointments: http://localhost:3000/my-appointments
+| Home | http://localhost:3000/ |
 
-\- Book Appointment: http://localhost:3000/appointments/book
+| Register | http://localhost:3000/register |
 
-\- My Profile: http://localhost:3000/profile
+| Login | http://localhost:3000/login |
 
-\- Change Password: http://localhost:3000/change-password
+| Doctors | http://localhost:3000/doctors |
+
+| My Appointments | http://localhost:3000/my-appointments |
+
+| Book Appointment | http://localhost:3000/appointments/book |
+
+| My Profile | http://localhost:3000/profile |
+
+| Change Password | http://localhost:3000/change-password |
 
 
 
 \### Admin
 
-\- Admin Login: http://localhost:8080/admin/login
+
+
+| Page | URL |
+
+|---|---|
+
+| Admin Login | http://localhost:8080/admin/login |
 
 
 
@@ -250,7 +262,7 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 
 
-Database Name: `careconnect\_db`
+\*\*Database Name:\*\* `careconnect\_db`
 
 
 
@@ -258,9 +270,9 @@ Configure database credentials using environment variables:
 
 
 
-\- DB\_USERNAME
+\- `DB\_USERNAME`
 
-\- DB\_PASSWORD
+\- `DB\_PASSWORD`
 
 
 
@@ -300,11 +312,7 @@ Run the Spring Boot application:
 
 
 
-Backend runs on:
-
-
-
-`http://localhost:8080`
+\*\*Backend URL:\*\* http://localhost:8080
 
 
 
@@ -348,11 +356,7 @@ npm.cmd start
 
 
 
-Frontend runs on:
-
-
-
-`http://localhost:3000`
+\*\*Frontend URL:\*\* http://localhost:3000
 
 
 
@@ -385,6 +389,10 @@ Frontend runs on:
 \- Online Payment Integration
 
 \- Improved Reporting and Analytics
+
+
+
+\---
 
 
 
