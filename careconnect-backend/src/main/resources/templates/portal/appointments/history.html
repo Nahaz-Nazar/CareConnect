@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Full Appointment History - CareConnect</title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-4">
+
+    <h2 class="text-primary mb-4">
+        Full Appointment History
+    </h2>
+
+    <a href="/appointments" class="btn btn-secondary mb-3">
+        Back to Appointments
+    </a>
+
+    <div th:if="${#lists.isEmpty(appointments)}"
+         class="alert alert-info">
+        No appointments found.
+    </div>
+
+    <div class="table-responsive"
+         th:if="${not #lists.isEmpty(appointments)}">
+
+        <table class="table table-bordered table-striped">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Patient</th>
+                    <th>Doctor</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr th:each="appointment : ${appointments}">
+
+                    <td th:text="${appointment.id}"></td>
+
+                    <td th:text="${appointment.patient.firstName
+                        + ' ' + appointment.patient.lastName}">
+                    </td>
+
+                    <td th:text="${appointment.doctor.name}"></td>
+
+                    <td th:text="${appointment.appointmentDate}"></td>
+
+                    <td th:text="${appointment.appointmentTime}"></td>
+
+                    <td th:text="${appointment.status}"></td>
+
+                    <td>
+                        <a th:href="@{/appointments/view/{id}
+                            (id=${appointment.id})}"
+                           class="btn btn-primary btn-sm">
+                            View
+                        </a>
+                    </td>
+
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+</div>
+
+</body>
+</html>

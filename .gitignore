@@ -1,0 +1,8 @@
+node_modules/
+target/
+.env
+.metadata/
+.settings/
+.project
+.classpath
+*.log
