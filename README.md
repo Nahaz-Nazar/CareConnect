@@ -1,8 +1,8 @@
-\# CareConnect – Healthcare Appointment Management Platform
+# CareConnect – Healthcare Appointment Management Platform
 
 
 
-\## Project Description
+## Project Description
 
 
 
@@ -18,159 +18,159 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 
 
-\## Technologies Used
+## Technologies Used
 
 
 
-\### Frontend
+### Frontend
 
-\- React.js
+- React.js
 
-\- JavaScript
+- JavaScript
 
-\- HTML5
+- HTML5
 
-\- CSS3
+- CSS3
 
-\- Bootstrap
+- Bootstrap
 
-\- Axios
+- Axios
 
-\- React Router DOM
+- React Router DOM
 
-\- Redux Toolkit
+- Redux Toolkit
 
 
 
-\### Backend
+### Backend
 
-\- Java
+- Java
 
-\- Spring Boot
+- Spring Boot
 
-\- Spring Data JPA
+- Spring Data JPA
 
-\- Spring Security
+- Spring Security
 
-\- Thymeleaf
+- Thymeleaf
 
-\- Maven
+- Maven
 
 
 
-\### Database
+### Database
 
-\- MySQL
+- MySQL
 
 
 
-\## Page Overview
+## Page Overview
 
 
 
-\### Patient Pages
+### Patient Pages
 
-1\. Home Page
+1. Home Page
 
-2\. Register Page
+2. Register Page
 
-3\. Login Page
+3. Login Page
 
-4\. Doctors List Page
+4. Doctors List Page
 
-5\. Doctor Details Page
+5. Doctor Details Page
 
-6\. Book Appointment Page
+6. Book Appointment Page
 
-7\. My Appointments Page
+7. My Appointments Page
 
-8\. My Profile Page
+8. My Profile Page
 
-9\. Change Password Page
+9. Change Password Page
 
 
 
-\### Admin Pages
+### Admin Pages
 
-1\. Admin Login Page
+1. Admin Login Page
 
-2\. Admin Dashboard
+2. Admin Dashboard
 
-3\. Doctor Management
+3. Doctor Management
 
-4\. Appointment Management
+4. Appointment Management
 
-5\. Registered Users
+5. Registered Users
 
-6\. User Appointment History
+6. User Appointment History
 
 
 
-\## Main Features
+## Main Features
 
 
 
-\### Patient Module
+### Patient Module
 
-\- Patient Registration
+- Patient Registration
 
-\- Patient Login
+- Patient Login
 
-\- View Doctor List and Details
+- View Doctor List and Details
 
-\- Book Doctor Appointments
+- Book Doctor Appointments
 
-\- View Upcoming and Past Appointments
+- View Upcoming and Past Appointments
 
-\- Cancel Appointments
+- Cancel Appointments
 
-\- View and Update Profile
+- View and Update Profile
 
-\- Change Password
+- Change Password
 
-\- Protected Patient Pages
+- Protected Patient Pages
 
 
 
-\### Admin Module
+### Admin Module
 
-\- Admin Login
+- Admin Login
 
-\- Admin Dashboard
+- Admin Dashboard
 
-\- View Today's Appointments
+- View Today's Appointments
 
-\- Filter Appointments by Date
+- Filter Appointments by Date
 
-\- Add, Update and Delete Doctors
+- Add, Update and Delete Doctors
 
-\- View Registered Users
+- View Registered Users
 
-\- View User Appointment History
+- View User Appointment History
 
 
 
-\### Appointment Management
+### Appointment Management
 
-\- Select a Doctor
+- Select a Doctor
 
-\- Choose Appointment Date
+- Choose Appointment Date
 
-\- Book Appointments
+- Book Appointments
 
-\- View Appointment Details
+- View Appointment Details
 
-\- Cancel Appointments
+- Cancel Appointments
 
-\- Manage Upcoming and Past Appointments
+- Manage Upcoming and Past Appointments
 
 
 
-\## User Details
+## User Details
 
 
 
-\### Sample Patient Account
+### Sample Patient Account
 
 
 
@@ -186,7 +186,7 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 
 
-\### Admin Account
+### Admin Account
 
 
 
@@ -204,15 +204,15 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 
 
-\*\*Note:\*\* Do not publish actual passwords or database credentials in a public repository.
+**Note:** Do not publish actual passwords or database credentials in a public repository.
 
 
 
-\## Application URLs
+## Application URLs
 
 
 
-\### Frontend
+### Frontend
 
 
 
@@ -238,7 +238,7 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 
 
-\### Admin
+### Admin
 
 
 
@@ -250,11 +250,11 @@ It also provides an Admin Module to manage doctors, view registered users, and m
 
 
 
-\## Database Configuration
+## Database Configuration
 
 
 
-\*\*Database Name:\*\* `careconnect\_db`
+**Database Name:** `careconnect_db`
 
 
 
@@ -262,9 +262,9 @@ Configure database credentials using environment variables:
 
 
 
-\- `DB\_USERNAME`
+- `DB_USERNAME`
 
-\- `DB\_PASSWORD`
+- `DB_PASSWORD`
 
 
 
@@ -272,11 +272,11 @@ Database configuration is maintained in `application.properties`.
 
 
 
-\## How to Run the Project
+## How to Run the Project
 
 
 
-\### Backend Setup
+### Backend Setup
 
 
 
@@ -304,11 +304,11 @@ Run the Spring Boot application:
 
 
 
-\*\*Backend URL:\*\* http://localhost:8080
+**Backend URL:** http://localhost:8080
 
 
 
-\### Frontend Setup
+### Frontend Setup
 
 
 
@@ -348,49 +348,49 @@ npm.cmd start
 
 
 
-\*\*Frontend URL:\*\* http://localhost:3000
+**Frontend URL:** http://localhost:3000
 
 
 
-\## Non-Functional Requirements
+## Non-Functional Requirements
 
 
 
-\- User-friendly interface
+- User-friendly interface
 
-\- Responsive design
+- Responsive design
 
-\- Secure authentication
+- Secure authentication
 
-\- Efficient appointment management
+- Efficient appointment management
 
-\- Reliable database operations
+- Reliable database operations
 
-\- Maintainable application structure
-
-
-
-\## Future Enhancements
+- Maintainable application structure
 
 
 
-\- Monthly Most Viewed Doctors Report
-
-\- Appointment Reminder Notifications
-
-\- Online Payment Integration
-
-\- Improved Reporting and Analytics
+## Future Enhancements
 
 
 
-\---
+- Monthly Most Viewed Doctors Report
+
+- Appointment Reminder Notifications
+
+- Online Payment Integration
+
+- Improved Reporting and Analytics
 
 
 
-\## Author
+---
 
 
 
-\*\*NAHAZ NAZAR\*\*
+## Author
+
+
+
+**NAHAZ NAZAR**
 
